@@ -14,7 +14,7 @@
  */
 
 
-const routes = require('../routes.js')
+const routes = require('../routes/routes.js')
 const fetch = require('node-fetch');
 
 

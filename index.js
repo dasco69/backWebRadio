@@ -8,7 +8,7 @@ const last_music = require('./music/last_music.js')
 //Server express
 const app = require('./app.js')
 
-const routes = require('./routes')
+const routes = require('./routes/routes.js')
 const path = require('path')
 
 //middleware
