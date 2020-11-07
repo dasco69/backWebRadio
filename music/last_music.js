@@ -27,68 +27,9 @@ let last_music = [
         title: null,
         album: null, 
         pochette: null
-    },
-    {
-        artist: null,
-        title: null,
-        album: null, 
-        pochette: null
-    },
-    {
-        artist: null,
-        title: null,
-        album: null, 
-        pochette: null
-    },
-    {
-        artist: null,
-        title: null,
-        album: null, 
-        pochette: null
-    },
-    {
-        artist: null,
-        title: null,
-        album: null, 
-        pochette: null
-    },
+    }
 ]
 
-
-
-//TEST
-/*
-recupLastMusic()
-
-
-function recupLastMusic() {
-    
-    setInterval(() => {
-        
-        last_music[0].artist = 'david guetta'
-        arrayMusic()
-    }, 1000)
-    
-   
-}
-
-function arrayMusic() {
-    let nb = -1
-
-    while(nb < 4) {
-        //increment nb de 1 , de zero à 4 donc fait un tour de boucle de 5
-        nb++
-
-        //On rajoute 1 sur la string pour l'affichage dans la console juste à titre informatif.
-        console.log(`retourne derniere musique n°${nb+1}: \nArtist:${last_music[nb].title} \nTitle:${last_music[nb].artist}\n`)
-        //Condition pour être sur que si nb arrive à 4 on sort de la boucle.
-        if(nb === 4) {
-            break
-        }
-    }
-}
-*/
-//FIN TEST
 
 //Export last_music
 module.exports = last_music
