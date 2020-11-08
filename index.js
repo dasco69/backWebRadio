@@ -5,6 +5,8 @@ require('dotenv').config()
 //Music
 const names_musics = require('./music/names_musics.js')
 const last_music = require('./music/last_music.js')
+//Strapi
+const post_music = require('./strapi/post_music.js')
 //Server express
 const app = require('./app.js')
 
