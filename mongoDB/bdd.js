@@ -1,5 +1,0 @@
- //token api strapi
- const TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmYTdjZmRjNjBmZWRlMzgxOTRiNDQ5NiIsImlhdCI6MTYwNDgzMzc5MywiZXhwIjoxNjA3NDI1NzkzfQ.S9OqCGpcjRxk3DvnEXdioHDO8_u7rAmGQ-4Tyj7cVdk"
-
-
-module.exports = TOKEN
